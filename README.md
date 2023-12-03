@@ -1,4 +1,4 @@
-## Meteor Bootstrap 4 Scss from Npm with PostCSS - playground
+## Meteor Bootstrap 5 Scss from Npm with PostCSS - playground
 
 This is just a quick test and demo project which uses [PostCSS package](https://github.com/juliancwirko/meteor-postcss/tree/meteor-1.3-in-progress) and some PostCSS plugins to compile Scss provided by Bootstrap 4 from Npm package.
 
@@ -19,7 +19,7 @@ $ meteor
 2. I use some PostCSS plugins. Take a look at `package.json` file at 'postcss' key. Here is the list: ["autoprefixer": "^6.3.4", "postcss-easy-import": "^1.0.1", "postcss-nested": "^1.0.0", "postcss-sassy-mixins": "^2.0.0", "postcss-simple-vars": "^1.2.0"]
 3. I import all bootstrap .scss files in `client/main.css` file - yes it should be .css file not .scss
 4. I import all Bootstrap javascript in `client/main.js` file (ES6 modules).
-5. All is installed by `npm install bootstrap@4.0.0-alpha.2 --save`
+5. All is installed by `npm install`
 6. We don't need `fourseven:scss` here!
 
 ### Benefits

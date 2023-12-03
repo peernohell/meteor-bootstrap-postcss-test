@@ -5,16 +5,21 @@
     "start": "meteor run"
   },
   "dependencies": {
-    "bootstrap": "^4.0.0-alpha.2",
-    "meteor-node-stubs": "~0.2.0"
+    "@babel/runtime": "^7.23.5",
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.2",
+    "jquery": "^3.7.1",
+    "meteor-node-stubs": "~1.2.7"
   },
   "devDependencies": {
-    "autoprefixer": "^6.3.4",
-    "postcss-easy-import": "^1.0.1",
-    "postcss-nested": "^1.0.0",
-    "postcss-sassy-mixins": "^2.0.0",
-    "postcss-scss": "^0.1.7",
-    "postcss-simple-vars": "^1.2.0"
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "postcss-easy-import": "^4.0.0",
+    "postcss-load-config": "^5.0.0",
+    "postcss-nested": "^6.0.1",
+    "postcss-sassy-mixins": "^2.1.0",
+    "postcss-scss": "^4.0.9",
+    "postcss-simple-vars": "^7.0.1"
   },
   "postcss": {
     "plugins": {
